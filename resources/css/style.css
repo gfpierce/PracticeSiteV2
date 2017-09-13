@@ -178,3 +178,14 @@ header {
     border-radius: 50%;
     margin: 20px auto;
 }
+
+/* ------------------------------------- */
+/* About */
+/* ------------------------------------- */
+
+.section-music video {
+    width: 60%;
+    height: auto;
+    margin: 30px 20% 30px 20%;
+}
+
