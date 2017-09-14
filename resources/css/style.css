@@ -146,6 +146,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .hero-box {
@@ -236,4 +237,29 @@ header {
 
 .photo-copy {
     margin-top: 30px;
+}
+
+/* ------------------------------------- */
+/* Footer */
+/* ------------------------------------- */
+
+footer {
+    background-color: #111;
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    width: 50%
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer li a:link,
+footer li a:visited {
+    font-size: 150%;
+    color: #ecf0f1;
 }
