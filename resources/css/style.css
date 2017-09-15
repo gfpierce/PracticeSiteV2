@@ -246,16 +246,18 @@ header {
 footer {
     background-color: #111;
     margin: 0;
+    text-align: center;
+    padding: 20px 0;
 }
 
-footer ul {
-    list-style: none;
-    width: 50%
-}
 
 footer ul li {
     display: inline-block;
     margin-right: 20px;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
 }
 
 footer li a:link,
