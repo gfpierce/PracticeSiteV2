@@ -244,6 +244,12 @@ header {
     margin-top: 30px;
 }
 
+.photo-copy a:link,
+.photo-copy a:visited {
+    text-decoration: none;
+    color: #111;
+}
+
 /* ------------------------------------- */
 /* Footer */
 /* ------------------------------------- */
