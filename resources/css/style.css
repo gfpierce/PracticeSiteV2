@@ -169,10 +169,12 @@ h3 {
     width: 100%;
     background-color: #ecf0f1;
     z-index: 9999;
+    offset: 40px;
 }
 
 .sticky .main-nav {
     padding: 0;
+    margin: 15px 0;
 }
 
 .sticky .main-nav li a:link, .sticky .main-nav li a:visited {
